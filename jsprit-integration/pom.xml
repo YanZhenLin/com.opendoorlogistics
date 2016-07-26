@@ -12,6 +12,13 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
+	<repositories> <!-- instead of manual install use a github repository -->
+		<repository>
+			<id>jsprit-releases</id>
+			<url>https://github.com/jsprit/mvn-rep/raw/master/releases</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 
 		<dependency>
